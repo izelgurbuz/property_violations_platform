@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.Venv/
+venv.bak/
+
+# Environment variables
+.env
+*.env
+.env.*
+
+# Flask specific
+instance/
+*.sqlite3
+*.db
+
+# Logs
+logs/
+*.log
+
+# Caches
+.cache/
+*.cache
+*.bak
+
+# Package files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+wheels/
+pip-wheel-metadata/
+
+# PyInstaller
+# Usually these files are written by a Python script from a template
+*.manifest
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# pytest
+cache/
+.pytest_cache/
+
+# MySQL / MariaDB dump files
+*.sql
+*.sql.gz
+
+# IDE files (e.g., VSCode, PyCharm)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# macOS specific
+.DS_Store
+
+# Gunicorn and uWSGI files
+gunicorn_error.log
+gunicorn_access.log
+*.pid
+*.sock
+
+# Static and media directories
+/static/
+/media/
+
+# Model files (if you're saving machine learning models)
+models/
+*.h5
+*.pkl
+
+# Temporary files
+*.tmp
+*.temp
