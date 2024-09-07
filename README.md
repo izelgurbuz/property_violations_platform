@@ -29,5 +29,4 @@ Data Preprocessing Notes
 Scaling the Features:
 
 The features are scaled using StandardScaler to ensure they have a mean of 0 and a standard deviation of 1, which helps in improving model performance:
-Mean of scaled features: [-6.495e-17, -1.276e-16, 7.423e-17, -7.423e-17, -5.219e-17].
 Standard deviation of all scaled features is 1, ensuring that all features are on the same scale for better model performance.
